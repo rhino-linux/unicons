@@ -8,7 +8,7 @@
 <g filter="url(#filter1_d_112_234)">
 <path d="M64 28.5312C44.066 28.5312 27.9062 44.621 27.9062 64.4688C27.9062 84.3165 44.066 100.406 64 100.406V28.5312Z" fill="black"/>
 </g>
-<path d="M64 28.5312C44.066 28.5312 27.9062 44.621 27.9062 64.4688C27.9062 84.3165 44.066 100.406 64 100.406V28.5312Z" fill="#8116B6"/>
+<path d="M64 24C41.9086 24 24 41.9086 24 64C24 86.0914 41.9086 104 64 104V24Z" fill="#8116B6"/>
 </g>
 <defs>
 <filter id="filter0_i_112_234" x="8" y="8" width="112" height="116" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
