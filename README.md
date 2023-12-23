@@ -7,3 +7,6 @@ As Elsie (Lead Developer of Pacstall) says
 ## Maintainers:
 - oklopfer 
 - JanluOfficial
+
+## Contribute to Unicons
+To start contributing to Unicons, check out the [Official Figma Templates](https://www.figma.com/community/file/1320453161902790267/unicons-template-kit)
