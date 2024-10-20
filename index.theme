@@ -1,0 +1,10 @@
+[Icon Theme]
+Name=unicons
+Comment=Rhino Linux icon theme
+
+[Directories]
+Size=scalable
+Directory=Applications
+Directory=Settings
+Directory=Templates
+
