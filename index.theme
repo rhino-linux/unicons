@@ -1,10 +1,21 @@
 [Icon Theme]
-Name=unicons
-Comment=Rhino Linux icon theme
+Inherits=Adwaita
+Name=Unicons
+Comment=Rhino Linux Icon pack
+Directories=Applications,Settings,Templates
 
-[Directories]
-Size=scalable
-Directory=Applications
-Directory=Settings
-Directory=Templates
+[Applications]
+Size=48
+Type=Fixed
+Context=Applications
+
+[Settings]
+Size=48
+Type=Fixed
+Context=Settings
+
+[Templates]
+Size=48
+Type=Fixed
+Context=Templates
 
