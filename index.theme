@@ -2,61 +2,72 @@
 Inherits=hicolor
 Name=Unicons
 Comment=Rhino Linux Icon pack
-Directories=128x128,96x96,84x84,64x64,48x48,42x42,32x32,24x24,22x22,18x18,16x16
+
+Directories=128x128/apps,96x96/apps,84x84/apps,64x64/apps,48x48/apps,42x42/apps,32x32/apps,24x24/apps,22x22/apps,18x18/apps,16x16/apps
+DesktopDefault=48
+DesktopSizes=16,22,24,32,48,64
+ToolbarDefault=22
+ToolbarSizes=16,22,24,32,48
+MainToolbarDefault=22
+MainToolbarSizes=16,22,24,32,48
+SmallDefault=16
+SmallSizes=16,22,24,32,48
+PanelDefault=48
+PanelSizes=16,22,24,32,48,64
+DialogDefault=48
+DialogSizes=16,22,24,32,48,64
 
 [128x128/apps]
 Size=128
-Type=fixed
+Type=Fixed
 Context=Applications
 
 [96x96/apps]
 Size=96
-Type=fixed
+Type=Fixed
 Context=Applications
 
 [84x84/apps]
 Size=84
-Type=fixed
+Type=Fixed
 Context=Applications
 
 [64x64/apps]
 Size=64
-Type=fixed
+Type=Fixed
 Context=Applications
 
 [48x48/apps]
 Size=48
-Type=fixed
+Type=Fixed
 Context=Applications
 
 [42x42/apps]
 Size=42
-Type=fixed
+Type=Fixed
 Context=Applications
 
 [32x32/apps]
 Size=32
-Type=fixed
+Type=Fixed
 Context=Applications
 
 [24x24/apps]
 Size=24
-Type=fixed
+Type=Fixed
 Context=Applications
 
 [22x22/apps]
 Size=22
-Type=fixed
+Type=Fixed
 Context=Applications
 
 [18x18/apps]
 Size=18
-Type=fixed
+Type=Fixed
 Context=Applications
 
 [16x16/apps]
 Size=16
-Type=fixed
+Type=Fixed
 Context=Applications
-
-
