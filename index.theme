@@ -1,21 +1,62 @@
 [Icon Theme]
-Inherits=Adwaita
+Inherits=hicolor
 Name=Unicons
 Comment=Rhino Linux Icon pack
-Directories=Applications,Settings,Templates
+Directories=128x128,96x96,84x84,64x64,48x48,42x42,32x32,24x24,22x22,18x18,16x16
 
-[Applications]
-Size=48
-Type=Fixed
+[128x128/apps]
+Size=128
+Type=fixed
 Context=Applications
 
-[Settings]
-Size=48
-Type=Fixed
-Context=Settings
+[96x96/apps]
+Size=96
+Type=fixed
+Context=Applications
 
-[Templates]
+[84x84/apps]
+Size=84
+Type=fixed
+Context=Applications
+
+[64x64/apps]
+Size=64
+Type=fixed
+Context=Applications
+
+[48x48/apps]
 Size=48
-Type=Fixed
-Context=Templates
+Type=fixed
+Context=Applications
+
+[42x42/apps]
+Size=42
+Type=fixed
+Context=Applications
+
+[32x32/apps]
+Size=32
+Type=fixed
+Context=Applications
+
+[24x24/apps]
+Size=24
+Type=fixed
+Context=Applications
+
+[22x22/apps]
+Size=22
+Type=fixed
+Context=Applications
+
+[18x18/apps]
+Size=18
+Type=fixed
+Context=Applications
+
+[16x16/apps]
+Size=16
+Type=fixed
+Context=Applications
+
 
