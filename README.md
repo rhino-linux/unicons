@@ -4,6 +4,19 @@
 As Elsie (Lead Developer of Pacstall) says
 > This is an icon pack, it provides icon pack.
 
+To install:
+```bash
+git clone https://github.com/rhino-linux/unicons
+sudo mkdir -p /usr/share/icons/Unicons
+sudo cp -r unicons/* /usr/share/icons/Unicons
+sudo gtk-update-icon-cache /usr/share/icons/Unicons
+```
+Then (for Unicorn):
+```
+xfconf-query -c xsettings -p /Net/IconThemeName -s Unicons
+gsettings set org.gnome.desktop.interface icon-theme Unicons
+```
+
 ## Maintainers:
 - oklopfer 
 - JanluOfficial
