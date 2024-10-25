@@ -4,6 +4,8 @@
 As Elsie (Lead Developer of Pacstall) says
 > This is an icon pack, it provides icon pack.
 
+To generate PNGs from scalable icons, run `./generate-sizes.sh`. You must have `rsvg-convert` (recommended) or `inkscape` installed to convert.
+
 To install:
 ```bash
 git clone https://github.com/rhino-linux/unicons
@@ -19,7 +21,7 @@ gsettings set org.gnome.desktop.interface icon-theme Unicons
 
 ## Maintainers:
 - oklopfer 
-- JanluOfficial
+- rudy-in
 
 ## Contribute to Unicons
 To start contributing to Unicons, check out the [Official Figma Templates](https://www.figma.com/community/file/1320453161902790267/unicons-template-kit) or the [SVG Templates](https://github.com/rhino-linux/unicons/tree/main/Templates).
