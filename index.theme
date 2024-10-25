@@ -1,21 +1,28 @@
 [Icon Theme]
-Inherits=hicolor
+Inherits=Papirus-Dark, Papirus, hicolor
 Name=Unicons
 Comment=Rhino Linux Icon pack
 
-Directories=128x128/apps,96x96/apps,84x84/apps,64x64/apps,48x48/apps,42x42/apps,32x32/apps,24x24/apps,22x22/apps,18x18/apps,16x16/apps
+Directories=128x128/apps,96x96/apps,84x84/apps,64x64/apps,48x48/apps,42x42/apps,32x32/apps,24x24/apps,22x22/apps,18x18/apps,16x16/apps,scalable/apps
 DesktopDefault=48
-DesktopSizes=16,22,24,32,48,64
 ToolbarDefault=22
-ToolbarSizes=16,22,24,32,48
 MainToolbarDefault=22
-MainToolbarSizes=16,22,24,32,48
 SmallDefault=16
-SmallSizes=16,22,24,32,48
 PanelDefault=48
-PanelSizes=16,22,24,32,48,64
 DialogDefault=48
+DesktopSizes=16,22,24,32,48,64,128
+ToolbarSizes=16,22,24,32,48
+MainToolbarSizes=16,22,24,32,48
+SmallSizes=16,22,24,32,48
+PanelSizes=16,22,24,32,48,64
 DialogSizes=16,22,24,32,48,64
+
+[scalable/apps]
+Size=256
+MinSize=16
+MaxSize=512
+Context=Apps
+Type=Scalable
 
 [128x128/apps]
 Size=128
