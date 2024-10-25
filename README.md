@@ -5,12 +5,6 @@ As Elsie (Lead Developer of Pacstall) says
 > This is an icon pack, it provides icon pack.
 
 ## Development
-To optimize SVGs:
-```bash
-npm install -g svgo
-svgo scalable/apps/*.svg --multipass
-```
-
 To optimize SVGs and generate PNGs from scalable icons, first install the requirements:
 ```bash
 sudo apt install nodejs golang-go librsvg2-bin # Debian and friends
