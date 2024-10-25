@@ -11,11 +11,17 @@ npm install -g svgo
 svgo scalable/apps/*.svg --multipass
 ```
 
-To generate PNGs from scalable icons, run: 
+To optimize SVGs and generate PNGs from scalable icons, first install the requirements:
 ```bash
-./generate-sizes.sh
+sudo apt install nodejs golang-go librsvg2-bin # Debian and friends
+brew install node go librsvg # macOS
+
+npm install -g svgo # both do this
 ```
-You must have `rsvg-convert` (recommended) or `inkscape` installed to convert.
+Then, run:
+```bash
+go run generate-sizes.go
+```
 
 ## Installation
 To install:
