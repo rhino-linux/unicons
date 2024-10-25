@@ -9,7 +9,8 @@ To optimize SVGs and generate PNGs from scalable icons, first install the requir
 ```bash
 sudo apt install nodejs golang-go librsvg2-bin # Debian and friends
 brew install node go librsvg # macOS
-
+```
+```bash
 npm install -g svgo # both do this
 ```
 Then, run:
