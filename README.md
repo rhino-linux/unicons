@@ -4,8 +4,20 @@
 As Elsie (Lead Developer of Pacstall) says
 > This is an icon pack, it provides icon pack.
 
-To generate PNGs from scalable icons, run `./generate-sizes.sh`. You must have `rsvg-convert` (recommended) or `inkscape` installed to convert.
+## Development
+To optimize SVGs:
+```bash
+npm install -g svgo
+svgo scalable/apps/*.svg --multipass
+```
 
+To generate PNGs from scalable icons, run: 
+```bash
+./generate-sizes.sh
+```
+You must have `rsvg-convert` (recommended) or `inkscape` installed to convert.
+
+## Installation
 To install:
 ```bash
 git clone https://github.com/rhino-linux/unicons
