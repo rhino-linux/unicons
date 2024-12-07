@@ -34,7 +34,7 @@ gsettings set org.gnome.desktop.interface icon-theme Unicons
 
 ## Maintainers:
 - oklopfer 
-- rudy-in
+- AJStrong
 
 ## Contribute to Unicons
 To start contributing to Unicons, check out the [Official Figma Templates](https://www.figma.com/community/file/1320453161902790267/unicons-template-kit) or the [SVG Templates](https://github.com/rhino-linux/unicons/tree/main/Templates).
