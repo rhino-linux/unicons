@@ -69,7 +69,7 @@ func optimizeAndGenerateIcon(icon string) {
 }
 
 func optimizeSVG(icon string) string {
-	optimizedIcon := icon + ".optimized.svg"
+	optimizedIcon := icon
 	fmt.Printf("Optimizing %s...\n", icon)
 
 	cmd := exec.Command("svgo", "-i", icon, "-o", optimizedIcon)
