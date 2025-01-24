@@ -1,3 +1,7 @@
+### Issues Tracker
+
+To report issues or propose new features for this repository, visit [our tracker](https://github.com/rhino-linux/tracker).
+
 # Unicons, the Unicorn Icon Pack
 **Unicons**, also known as **the Unicorn Icon Pack**, is the Icon Pack designed for the [**Unicorn Desktop Environment**](https://rhinolinux.org/unicorn.html).
 
