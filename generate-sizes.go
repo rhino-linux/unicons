@@ -6,23 +6,31 @@ import (
 	"os"
 	"os/exec"
 	"path/filepath"
+	"strings"
 	"sync"
 )
 
 var sizes = []int{16, 18, 22, 24, 32, 42, 48, 64, 84, 96, 128}
 
 func main() {
-	inputDir := "scalable/apps"
+	inputDirs := []string{"scalable/apps", "scalable/emblems"}
 
-	svgFiles, err := filepath.Glob(filepath.Join(inputDir, "*.svg"))
-	if err != nil {
-		log.Fatalf("Failed to read SVG files: %v", err)
+	var svgFiles []string
+	for _, dir := range inputDirs {
+		files, err := filepath.Glob(filepath.Join(dir, "*.svg"))
+		if err != nil {
+			log.Fatalf("Failed to read SVG files from %s: %v", dir, err)
+		}
+		svgFiles = append(svgFiles, files...)
 	}
 
 	for _, s := range sizes {
-		sizeDir := fmt.Sprintf("%dx%d/apps", s, s)
-		os.MkdirAll(sizeDir, os.ModePerm)
-		cleanDirectory(sizeDir)
+		for _, dir := range inputDirs {
+			baseName := strings.TrimPrefix(dir, "scalable/")
+			sizeDir := fmt.Sprintf("%dx%d/%s", s, s, baseName)
+			os.MkdirAll(sizeDir, os.ModePerm)
+			cleanDirectory(sizeDir)
+		}
 	}
 
 	var wg sync.WaitGroup
@@ -55,9 +63,10 @@ func cleanDirectory(dir string) {
 func optimizeAndGenerateIcon(icon string) {
 	optimizedIcon := optimizeSVG(icon)
 	iconname := filepath.Base(icon[:len(icon)-4])
+	category := strings.TrimPrefix(filepath.Dir(icon), "scalable/")
 
 	for _, s := range sizes {
-		sizeDir := fmt.Sprintf("%dx%d/apps", s, s)
+		sizeDir := fmt.Sprintf("%dx%d/%s", s, s, category)
 		outputFile := filepath.Join(sizeDir, iconname+".png")
 
 		fmt.Printf("Generating %s...\n", outputFile)
